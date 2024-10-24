@@ -1,0 +1,17 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  background-size: cover; /* Hace que la imagen de fondo cubra toda la pantalla */
+  background-repeat: no-repeat; /* Evita que la imagen se repita */
+  background-position: center center; /* Centra la imagen de fondo */
+}
+
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+}
